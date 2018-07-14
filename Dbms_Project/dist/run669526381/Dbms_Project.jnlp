@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Dbms_Project.jnlp">
+  <information>
+    <title>Dbms_Project</title>
+    <vendor>DELL</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Dbms_Project.jar" size="106742" download="eager" />
+    <jar href="lib/postgresql-42.2.2.jar" size="790405" download="eager" />
+    <jar href="lib/sqlite-jdbc-3.21.0.jar" size="6672489" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Dbms_Project" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="dbms_project.Dbms_Project"  name="Dbms_Project" />
+  <update check="always"/>
+</jnlp>

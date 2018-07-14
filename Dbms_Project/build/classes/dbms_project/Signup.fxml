@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" fx:id="rootPane" prefHeight="610.0" prefWidth="997.0" style="-fx-background-color: #FFFFFF;" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dbms_project.signupController">
+    <children>
+        <Label fx:id="label" layoutX="126" layoutY="120" minHeight="16" minWidth="69" />
+      <AnchorPane layoutX="597.0" layoutY="51.0" prefHeight="535.0" prefWidth="386.0" style="-fx-background-color: #1E90FF;" AnchorPane.rightAnchor="14.0">
+         <children>
+            <TextField fx:id="email" layoutX="48.0" layoutY="124.0" prefHeight="26.0" prefWidth="273.0" promptText="E-mail">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <PasswordField fx:id="password" layoutX="48.0" layoutY="234.0" prefHeight="26.0" prefWidth="273.0" promptText="Password">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></PasswordField>
+            <Button fx:id="signupButton" layoutX="48.0" layoutY="454.0" mnemonicParsing="false" onAction="#signup" prefHeight="25.0" prefWidth="123.0" style="-fx-background-color: #FFFFFF;" text="Sign Up">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="CLOSED_HAND" />
+               </cursor></Button>
+            <Label alignment="CENTER" layoutX="95.0" layoutY="22.0" prefHeight="26.0" prefWidth="129.0" text="Enter Details" textAlignment="JUSTIFY" textFill="WHITE" textOverrun="CLIP">
+               <font>
+                  <Font size="17.0" />
+               </font>
+            </Label>
+            <TextField fx:id="mobileNo" layoutX="48.0" layoutY="179.0" prefHeight="26.0" prefWidth="273.0" promptText="MobileNo">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <TextField fx:id="Name" layoutX="48.0" layoutY="75.0" prefHeight="26.0" prefWidth="273.0" promptText="Name">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></TextField>
+            <PasswordField fx:id="repassword" layoutX="48.0" layoutY="286.0" prefHeight="26.0" prefWidth="273.0" promptText="Re-type Password">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor></PasswordField>
+            <TextArea fx:id="addressField" layoutX="48.0" layoutY="321.0" prefHeight="117.0" prefWidth="273.0" promptText="Address">
+               <effect>
+                  <InnerShadow />
+               </effect>
+               <cursor>
+                  <Cursor fx:constant="TEXT" />
+               </cursor>
+            </TextArea>
+         </children>
+         <effect>
+            <InnerShadow />
+         </effect>
+      </AnchorPane>
+      <ImageView fx:id="logo" fitHeight="247.0" fitWidth="323.0" layoutX="27.0" layoutY="76.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@images/logo.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="Welcome" alignment="CENTER" layoutX="74.0" layoutY="20.0" prefHeight="21.0" prefWidth="553.0" text="Welcome to E-Shop" textAlignment="JUSTIFY" textOverrun="CENTER_ELLIPSIS" wrapText="true">
+         <font>
+            <Font name="Arial" size="18.0" />
+         </font>
+      </Label>
+      <Label fx:id="close" layoutX="664.0" layoutY="15.0" onMouseClicked="#Close" text="X" textFill="#e80e0e" AnchorPane.rightAnchor="10.0">
+         <font>
+            <Font size="20.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="27.0" layoutY="552.0" mnemonicParsing="false" onMouseClicked="#back" text="Back">
+         <effect>
+            <InnerShadow />
+         </effect>
+         <cursor>
+            <Cursor fx:constant="CLOSED_HAND" />
+         </cursor>
+      </Button>
+    </children>
+</AnchorPane>

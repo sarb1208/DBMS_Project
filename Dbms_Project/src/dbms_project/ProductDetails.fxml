@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane id="AnchorPane" prefHeight="601.0" prefWidth="900.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dbms_project.ProductDetailsController">
+   <children>
+      <Pane layoutX="440.0" layoutY="14.0" prefHeight="571.0" prefWidth="452.0">
+         <children>
+            <Label layoutX="15.0" layoutY="48.0" prefHeight="36.0" prefWidth="127.0" text="NAME" />
+            <Label fx:id="nameField" layoutX="202.0" layoutY="58.0" prefHeight="16.0" prefWidth="182.0" />
+            <Label layoutX="15.0" layoutY="138.0" text="MANUFACTURER" />
+            <Label fx:id="manufacturerFIeld" layoutX="202.0" layoutY="138.0" prefHeight="16.0" prefWidth="182.0" />
+            <Label layoutX="15.0" layoutY="209.0" text="PRICE" />
+            <Label fx:id="priceField" layoutX="201.0" layoutY="209.0" prefHeight="16.0" prefWidth="143.0" />
+            <Label layoutX="11.0" layoutY="269.0" text="Description" />
+            <Label layoutX="11.0" layoutY="485.0" text="IN STOCK" />
+            <Label fx:id="stock" layoutX="202.0" layoutY="485.0" prefHeight="16.0" prefWidth="182.0" />
+            <TextArea fx:id="description" editable="false" layoutX="202.0" layoutY="269.0" prefHeight="200.0" prefWidth="200.0" wrapText="true" />
+            <Label fx:id="quantity" layoutX="16.0" layoutY="533.0" text="Quantity" />
+            <Label fx:id="quantityField" layoutX="201.0" layoutY="533.0" prefHeight="16.0" prefWidth="38.0" />
+            <Button fx:id="incrementbutton" layoutX="271.0" layoutY="528.0" mnemonicParsing="false" onMouseClicked="#incrementAction" text="Inc" />
+            <Button fx:id="decrementbutton" layoutX="322.0" layoutY="528.0" mnemonicParsing="false" onMouseClicked="#decrementAction" text="Dec" />
+         </children>
+      </Pane>
+      <ImageView fx:id="image" fitHeight="374.0" fitWidth="360.0" layoutX="43.0" layoutY="36.0" pickOnBounds="true" preserveRatio="true" />
+      <Button fx:id="cartButton" layoutX="310.0" layoutY="547.0" mnemonicParsing="false" onMouseClicked="#addtoCart" text="Add to Cart" />
+      <Button fx:id="shopButton" layoutX="174.0" layoutY="547.0" mnemonicParsing="false" onMouseClicked="#showNow" text="Shop Now" />
+      <Button fx:id="removebutton" layoutX="55.0" layoutY="547.0" mnemonicParsing="false" onMouseClicked="#remove" text="Remove " />
+   </children>
+</AnchorPane>

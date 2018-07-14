@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Member.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/ShopNow.fxml</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/FXMLDocumentController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Product_DetailsController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/HomeController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/ShopNowController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/OrdersTableController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/MemberTableController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/ProductDetailsController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Inventory.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Invoice.fxml</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/MemberTable.fxml</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/InventoryController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/InvoiceController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Member_DetailsController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/CardDetailsController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/signupModel.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Cart.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Product.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/SqliteConnection.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/signupController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/CardDetails.fxml</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/ProductDetails.fxml</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Inventory.fxml</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/LoginModel.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/CartItem.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Admin_HomeController.java</file>
+            <file>file:/home/sarbjyot/NetBeansProjects/Dbms_Project/src/dbms_project/Dbms_Project.java</file>
+        </group>
+    </open-files>
+</project-private>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="443.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dbms_project.Product_DetailsController">
+   <children>
+      <Label fx:id="Name" layoutX="121.0" layoutY="69.0" text="Name" />
+      <Label fx:id="Description" layoutX="121.0" layoutY="111.0" text="Description" />
+      <Label fx:id="Price" layoutX="121.0" layoutY="156.0" text="Price" />
+      <Label fx:id="Manufacturer" layoutX="121.0" layoutY="200.0" text="Manufacturer" />
+      <Label fx:id="Quantity" layoutX="121.0" layoutY="246.0" text="Quantity" />
+      <Label fx:id="Vid" layoutX="121.0" layoutY="297.0" text="Vid" />
+      <TextField fx:id="nameField" layoutX="310.0" layoutY="64.0" />
+      <TextField fx:id="descriptionField" layoutX="310.0" layoutY="106.0" />
+      <TextField fx:id="priceField" layoutX="310.0" layoutY="151.0" />
+      <TextField fx:id="manufacturerField" layoutX="310.0" layoutY="195.0" />
+      <TextField fx:id="quantityField" layoutX="310.0" layoutY="241.0" />
+      <TextField fx:id="vidField" layoutX="310.0" layoutY="292.0" />
+      <Button fx:id="Upload" layoutX="119.0" layoutY="350.0" mnemonicParsing="false" onMouseClicked="#imageUpload" text="Upload Image" />
+      <Label fx:id="status" layoutX="314.0" layoutY="355.0" prefHeight="16.0" prefWidth="100.0" text="No file Chosen" />
+      <Button fx:id="Addbutton" layoutX="365.0" layoutY="394.0" mnemonicParsing="false" onMouseClicked="#addProduct" text="Add Product" />
+      <Label fx:id="status1" layoutX="274.0" layoutY="27.0" />
+      <Label fx:id="PId" layoutX="123.0" layoutY="35.0" text="PId" />
+      <TextField fx:id="pidField" layoutX="310.0" layoutY="30.0" />
+      <Button fx:id="editbutton" layoutX="119.0" layoutY="394.0" mnemonicParsing="false" onMouseClicked="#edit" text="Edit" />
+      <Button fx:id="savebutton" layoutX="501.0" layoutY="394.0" mnemonicParsing="false" onMouseClicked="#save" text="Save" />
+   </children>
+</AnchorPane>

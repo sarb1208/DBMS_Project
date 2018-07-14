@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.RadioButton?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.141" xmlns:fx="http://javafx.com/fxml/1" fx:controller="dbms_project.ShopNowController">
+   <children>
+      <TableView fx:id="Cart" layoutX="65.0" layoutY="77.0" prefHeight="247.0" prefWidth="506.0">
+        <columns>
+          <TableColumn fx:id="columnName" prefWidth="210.0" text="Product Name" />
+          <TableColumn fx:id="columnPrice" prefWidth="137.0" text="Price" />
+            <TableColumn fx:id="columnQuantity" prefWidth="77.0" text="Quantity" />
+            <TableColumn fx:id="columnPId" prefWidth="82.0" text="PId" />
+        </columns>
+      </TableView>
+      <Label layoutX="159.0" layoutY="36.0" prefHeight="16.0" prefWidth="325.0" text="Select the products you want to order now" wrapText="true" />
+      <Label layoutX="65.0" layoutY="357.0" text="Grand Total" />
+      <TextField fx:id="total" editable="false" layoutX="159.0" layoutY="352.0" prefHeight="26.0" prefWidth="106.0" />
+      <Button fx:id="Orderbutton" layoutX="474.0" layoutY="352.0" mnemonicParsing="false" onMouseClicked="#Order" text="Order" />
+      <RadioButton fx:id="COD" layoutX="287.0" layoutY="356.0" mnemonicParsing="false" text="COD" />
+      <RadioButton fx:id="Debit" layoutX="357.0" layoutY="356.0" mnemonicParsing="false" text="Debit Card" />
+   </children>
+</AnchorPane>
